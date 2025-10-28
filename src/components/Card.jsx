@@ -80,9 +80,9 @@ export default function RecipeReviewCard() {
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
-        <Button variant="outlined" startIcon={<DeleteIcon />}>
-          Delete
-        </Button>
+        <IconButton aria-label="share">
+          <ShareIcon />
+        </IconButton>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
